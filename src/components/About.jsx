@@ -36,10 +36,10 @@ export default function About() {
         <div className="about-img relative">
           <div className="relative rounded-2xl overflow-hidden glow-pink">
             <img
-              src="https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?w=600&q=80"
-              alt="Ashley Watson-Hunter at work"
+              src="/ashleys-bouquetpop/ashley-photo.jpg"
+              alt="Ashley Watson-Hunter"
               loading="lazy"
-              className="w-full aspect-[4/5] object-cover"
+              className="w-full aspect-[4/5] object-cover object-top"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-bg/40 via-transparent to-transparent" />
           </div>

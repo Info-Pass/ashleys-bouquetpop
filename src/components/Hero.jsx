@@ -85,6 +85,22 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
+        <div className="hero-tag" style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
+          <img
+            src="https://ashleysbouquetpop.com/cdn/shop/files/IMG_5764.jpg?v=1771279680"
+            alt="Ashley's Bouquetpop"
+            style={{
+              width: '180px',
+              height: '180px',
+              borderRadius: '50%',
+              objectFit: 'cover',
+              objectPosition: 'top',
+              border: '3px solid #FFD700',
+              boxShadow: '0 0 30px rgba(255,45,120,0.6), 0 0 60px rgba(255,215,0,0.3)',
+            }}
+          />
+        </div>
+
         <div className="hero-tag inline-flex items-center gap-2 px-4 py-2 mb-8 rounded-full border-pink-mid bg-pink/5">
           <Sparkles className="w-4 h-4 text-pink" />
           <span className="font-accent tracking-widest text-sm text-pink">

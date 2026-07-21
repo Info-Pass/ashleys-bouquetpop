@@ -15,61 +15,85 @@ const products = [
     name: 'Money Bouquets',
     desc: 'Custom cash arrangements styled like floral bouquets — a gift they won\'t forget.',
     price: 'from $25',
-    img: 'https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=600&q=80',
+    img: 'https://ashleysbouquetpop.com/cdn/shop/files/B5375A78-DAEF-46A0-9FCB-CEA1DB0C0F95.jpg?v=1772289319',
+    href: 'https://ashleysbouquetpop.com/collections/gift-arrangements',
   },
   {
     name: 'Money Leis',
     desc: 'Folded-bill leis perfect for graduations, birthdays, and milestone celebrations.',
     price: 'from $110',
-    img: 'https://images.unsplash.com/photo-1504198266287-1659872e6590?w=600&q=80',
+    img: 'https://ashleysbouquetpop.com/cdn/shop/files/PhotoMay192025_82839PM.jpg?v=1770235838',
+    href: 'https://ashleysbouquetpop.com/collections/gift-arrangements',
   },
   {
     name: 'Money Cakes',
     desc: 'Tiered cash creations that look just like the real thing — only better.',
     price: 'from $100',
-    img: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80',
+    img: 'https://ashleysbouquetpop.com/cdn/shop/files/videoframe_3006.png?v=1769986394',
+    href: 'https://ashleysbouquetpop.com/collections/gift-arrangements',
   },
   {
     name: 'Custom Tumblers',
     desc: '20oz tumblers & snowglobe tumblers personalized with your name, colors, design.',
     price: 'custom quote',
-    img: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=600&q=80',
+    img: 'https://ashleysbouquetpop.com/cdn/shop/files/SstFf8CU.jpg?v=1769993990',
+    href: 'https://ashleysbouquetpop.com/collections/gift-arrangements',
   },
   {
-    name: 'Diaper Arrangements',
+    name: 'Premade Drinkware',
+    desc: 'Ready-to-ship drinkware — tumblers and cups already designed and good to go.',
+    price: 'shop now',
+    img: 'https://ashleysbouquetpop.com/cdn/shop/collections/003E14D8-1C14-49ED-9C23-38EAC6CC2CB0.jpg?v=1770074250',
+    href: 'https://ashleysbouquetpop.com/collections/gift-arrangements',
+  },
+  {
+    name: 'Diaper Bouquets',
     desc: 'Adorable diaper bouquets — the showstopper at every baby shower.',
     price: 'from $150',
-    img: 'https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=600&q=80',
+    img: 'https://ashleysbouquetpop.com/cdn/shop/files/PhotoOct162025_13407AM.jpg?v=1770004404',
+    href: 'https://ashleysbouquetpop.com/collections/gift-arrangements',
   },
   {
-    name: 'Ribbon Leis',
+    name: 'Ribbon Graduation Leis',
     desc: 'Custom ribbon graduation leis in your school colors — proud moments deserve proud gifts.',
     price: 'custom quote',
-    img: 'https://images.unsplash.com/photo-1519225421980-715cb0fe00df?w=600&q=80',
-  },
-  {
-    name: 'Gift Arrangements',
-    desc: 'One-of-a-kind themed gift arrangements built around your recipient.',
-    price: 'custom quote',
-    img: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=600&q=80',
+    img: 'https://ashleysbouquetpop.com/cdn/shop/files/IMG-8216.png?v=1778025319',
+    href: 'https://ashleysbouquetpop.com/collections/gift-arrangements',
   },
   {
     name: 'UVDTF Cup Wraps',
     desc: '15+ themed collections — Sports, Zodiacs, Celebrities, Animals & more. From $3 each.',
     price: 'from $3',
-    img: 'https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=600&q=80',
+    img: 'https://ashleysbouquetpop.com/cdn/shop/collections/F30157A4-7E4C-43AF-B16A-A51FEC73D9E1.png?v=1770298567',
+    href: 'https://ashleysbouquetpop.com/collections/gift-arrangements',
   },
   {
     name: 'Mom Bouquet Boxes',
     desc: 'A beautiful boxed arrangement perfect for Mother\'s Day, appreciation, and more.',
     price: 'from $85',
-    img: 'https://images.unsplash.com/photo-1490750967868-88df5691cc50?w=600&q=80',
+    img: 'https://ashleysbouquetpop.com/cdn/shop/files/MoneyBouquets_leis_cakes-14.jpg?v=1770095836',
+    href: 'https://ashleysbouquetpop.com/collections/gift-arrangements',
+  },
+  {
+    name: 'GRAD Gift Box',
+    desc: 'Complete graduation gift set — money arrangements, custom drinkware, and more in one beautiful box.',
+    price: 'from $85',
+    img: 'https://ashleysbouquetpop.com/cdn/shop/files/0358312F-3A4C-4F71-A46D-444EE89A9B7C.webp?v=1772288315',
+    href: 'https://ashleysbouquetpop.com/collections/gift-arrangements',
   },
   {
     name: 'Burn Bouquets',
-    desc: 'Unique and unforgettable floral-inspired money arrangements.',
-    price: 'from $100',
-    img: 'https://images.unsplash.com/photo-1518895312237-a9e23508077d?w=600&q=80',
+    desc: 'Light it to reveal a hidden message — a surprise reveal bouquet unlike anything else. Perfect for proposals, gender reveals, and special celebrations.',
+    price: '$100',
+    img: 'https://ashleysbouquetpop.com/cdn/shop/files/DGrWwugM.jpg?v=1772289128',
+    href: 'https://ashleysbouquetpop.com/collections/gift-arrangements',
+  },
+  {
+    name: 'Sublimation Puzzles',
+    desc: 'Custom photo puzzles — a unique and memorable personalized gift for any occasion.',
+    price: 'custom quote',
+    img: 'https://ashleysbouquetpop.com/cdn/shop/files/8EE4E292-DEE4-4456-BCBA-C94DD4FDA675.jpg?v=1773958961',
+    href: 'https://ashleysbouquetpop.com/collections/gift-arrangements',
   },
 ]
 
@@ -113,22 +137,23 @@ export default function Products() {
           {products.map((p) => (
             <a
               key={p.name}
-              href="https://ashleysbouquetpop.com"
+              href={p.href || 'https://ashleysbouquetpop.com'}
               target="_blank"
               rel="noopener noreferrer"
-              className="product-card group relative overflow-hidden rounded-2xl bg-card border-pink-soft hover:border-pink-mid transition-all duration-500 hover:scale-[1.03] hover:glow-pink"
+              className="product-card group relative flex flex-col overflow-hidden rounded-2xl bg-card border-pink-soft hover:border-pink-mid transition-all duration-500 hover:scale-[1.03] hover:glow-pink"
             >
-              <div className="aspect-[4/5] overflow-hidden">
+              <div className="relative overflow-hidden" style={{ height: '260px' }}>
                 <img
                   src={p.img}
                   alt={p.name}
                   loading="lazy"
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
+                  className="transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/30 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-bg/80 via-bg/10 to-transparent" />
               </div>
 
-              <div className="absolute bottom-0 left-0 right-0 p-6">
+              <div className="relative p-6">
                 <div className="font-accent tracking-widest text-pink text-xs mb-2">
                   Category
                 </div>
